@@ -32,7 +32,7 @@ def handle_uploaded_file(f):
 def test_uploaded_file(f):
     im = Image.open(f)
     src = Image.open('8col.png')
-    im = im.quantize(palette = src)
+    # im = im.quantize(palette = src)
 
     size = im.width
     box_size = 4    
